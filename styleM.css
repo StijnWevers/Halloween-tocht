@@ -93,4 +93,12 @@ ul {
     margin: 20px;
     padding: 20px;
     background-color: #EB5E28;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contentaboutusM{
+    display: flex;
+    
 }
