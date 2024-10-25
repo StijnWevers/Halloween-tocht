@@ -1,0 +1,87 @@
+nav {
+    position: fixed;
+    background: #130f10;
+    width: 100%;
+    height: 150px;
+    top: 0;
+    left: 0;
+}
+
+.bodyM {
+    background-image: url(https://wallpapersmug.com/download/3840x2400/700dc3/ghosts-and-pumpkins-halloween-art.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: orange;
+}
+
+img {
+
+    height: 100%;
+    object-fit: cover;
+}
+
+li {
+    float: left;
+    width: 50px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+ul {
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+
+.introM {
+    display: flex;
+    margin-top: 15vh;
+    justify-content: center;
+    margin-bottom: 20vh;
+}
+
+.introinputM {
+    color: brown;
+    border-radius: 5px;
+    width: 70vw;
+    height: 50px;
+    font-size: 40px;
+}
+
+.introflexM {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+.introtextM {
+    font-size: 50px;
+    color: orange;
+}
+
+.FAQM {
+    display: flex;
+    background-color: antiquewhite;
+    gap: 20vw;
+    justify-content: space-between;
+}
+
+.questionM {
+    
+}
