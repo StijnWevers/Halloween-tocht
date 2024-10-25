@@ -48,13 +48,13 @@ ul {
 
 .introM {
     display: flex;
-    margin-top: 15vh;
+    margin-top: 20vh;
     justify-content: center;
     margin-bottom: 20vh;
 }
 
 .introinputM {
-    color: brown;
+    color: #EB5E28;
     border-radius: 5px;
     width: 70vw;
     height: 50px;
@@ -72,16 +72,25 @@ ul {
 
 .introtextM {
     font-size: 50px;
-    color: orange;
+    color: #EB5E28;
 }
 
 .FAQM {
     display: flex;
-    background-color: antiquewhite;
-    gap: 20vw;
     justify-content: space-between;
 }
 
 .questionM {
-    
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.faqitemM{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #EB5E28;
 }
